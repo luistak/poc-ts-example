@@ -1,0 +1,18 @@
+{
+  "name": "poc-ts-example",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["/dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn run build"
+  },
+  "description": "Simple ts example",
+  "repository": "git@github.com:luistak/poc-ts-example.git",
+  "author": "Luis <takahashihideki408@gmail.com>",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  },
+  "license": "MIT"
+}
